@@ -28,18 +28,13 @@
                 <div class="row justify-content-center">
                     <div class="col-md-8 col-lg-6 col-xl-5">
                         <div class="card overflow-hidden">
-                           
-                                @yield('content') 
-            
-                            </div>
+                             @yield('content') 
                         </div>
                         <div class="mt-5 text-center">
-                            
                             <div>
                                 <p>© <script>document.write(new Date().getFullYear())</script> {{ env('APP_NAME') }}</p>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
