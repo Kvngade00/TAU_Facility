@@ -46,7 +46,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                     
                      <!-- Logo ( * your text or image into link tag *) -->
                      <div class="nav-logo-wrap local-scroll">
-                        <a href="index.html" class="logo">
+                        <a href="#" class="logo">
                             <img src="{{asset('siteassets/images/thomas.png')}}" alt="Company logo" width="188" height="37" class="logo-white" />
                             <img src="{{asset('siteassets/images/thomas.png')}}" alt="Company logo" width="188" height="37" class="logo-dark" />
                         </a>
@@ -423,10 +423,10 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                             Proin fringilla augue at maximus vestibulum nam pulvinar vitae integer non dapibus diam, ac eleifend lectus.
                                         </div>                                        
                                     </div>
-                                    <div class="col-lg-3 pt-10 text-lg-end">
+                                    <div class="col-lg-3 pt-10 text-lg-end">    
                                         <div class="local-scroll">
-                                            <a href="portfolio-wide-gutter-3col.html" class="btn btn-mod btn-large btn-round">View Portfolio</a>
-                                        </div>
+                                            <a href="portfolio-wide-gutter-3col.html" class="btn btn-mod btn-border btn-large btn-round">View Portfolio</a>
+                                        </div> 
                                     </div>
                                 </div>
                             </div>

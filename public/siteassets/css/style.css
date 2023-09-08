@@ -2454,7 +2454,8 @@ a.logo:hover{
     background-color: #fff;
 }
 .bg-gray{
-    background-color: #f1f1f1;
+    background-color: #ffcc00 !important;
+    background: linear-gradient( rgba(255, 255, 255, 0.271),rgba(0, 0, 0, 0.271));
 }
 .bg-gray-lighter{
     background-color: #f7f7f7;
@@ -3759,8 +3760,8 @@ a.logo:hover{
     margin-bottom: 2em;
     font-family: var(--font-global-alt);
     font-size: 18px;
-    font-weight: 400; /*500*/ 
-    color: #757575;
+    font-weight: 500; /*500*/ 
+    color: #000000;
 }
 .light-content .call-action-1-decription{
     color: #fff;
