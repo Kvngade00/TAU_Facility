@@ -24,7 +24,7 @@ body::before {
   content: 'mobile';
   display: none;
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 700px) {
   body::before {
     /* never visible - this is used in jQuery to check the current MQ */
     content: 'desktop';
@@ -48,7 +48,7 @@ Main Components
 }
 .tour-section h1 {
   position: relative;
-  top: 45%;
+  top: 160px;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -57,17 +57,18 @@ Main Components
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  font-size: 4.2rem;
+  font-size: 4.5rem;
   color:#fff;
   letter-spacing:normal;
 
 }
 .tour-section h1 span{
 	display:block;
-  font-size: 2.3rem;
+  font-size: 2.8rem;
   color:#fff;
    letter-spacing:normal;
-   color:#92b2c9;
+   color:#bac6ce;
+   margin-top: 1.5rem;
 }
 @media only screen and (min-width: 768px) {
   .tour-section h1 {
@@ -115,7 +116,7 @@ margin-bottom:0;
    background-position: center center;
   background-repeat: no-repeat;
 }
-@media only screen and (min-width: 1170px) {
+@media (min-width: 700px) {
   .full-container {
     position: fixed;
     width: 100%;

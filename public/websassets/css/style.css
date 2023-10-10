@@ -116,7 +116,7 @@ h3 {
 .sub_header h1,
 .sub_header_contact_home #intro_txt h1 {
     font-family: proxima_novalight, Arial, Helvetica, sans-serif;
-    letter-spacing: -1px
+    letter-spacing: -1px;
 }
 
 #intro_txt h1 strong,
@@ -486,7 +486,7 @@ header#contacts {
 }
 
 .sub_header_contact_home #intro_txt h1 {
-    margin: 0;
+    margin: -30%;
     padding: 100px 0 0;
     font-size: 60px;
     text-shadow: 0 1px 3px rgba(0, 0, 0, .3);
@@ -527,25 +527,27 @@ ul#contacts_footer {
 
 #home_feat_1 {
     position: relative;
-    margin-bottom: 60px
+    margin-bottom: 60px;
+    margin-top: 160px;
 }
 
 .home_feat_1_box {
     overflow: hidden;
     bottom: -60px;
-    position: relative
+    position: relative;
+    border-radius: 5px;
 }
 
 .home_feat_1_box a:hover img {
     -webkit-transform: scale(1);
-    transform: scale(1)
+    transform: scale(1);
 }
 
 .home_feat_1_box img {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
     -webkit-transition: all .3s ease;
-    transition: all .3s ease
+    transition: all .3s ease;
 }
 
 .short_info {
@@ -568,14 +570,14 @@ ul#contacts_footer {
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
     text-transform: uppercase;
-    font-size: 18px
+    font-size: 18px;
 }
 
 .home_feat_1_box a:hover .short_info h3 {
     color: #fff;
     position: absolute;
     bottom: 20px;
-    left: 30px
+    left: 30px;
 }
 
 .short_info i {
@@ -593,7 +595,7 @@ ul#contacts_footer {
     position: absolute;
     bottom: 26px;
     right: 30px;
-    opacity: 1
+    opacity: 1;
 }
 
 .box_feat_home {
@@ -1830,7 +1832,7 @@ input#website {
 }
 
 .container_gray_bg {
-    background-color: #f3f5f8
+    background-color: #1b2f3c;
 }
 
 .container_gray_line {

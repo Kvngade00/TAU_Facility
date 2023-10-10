@@ -60,7 +60,8 @@ header.sticky, header.sticky#contacts, header#contacts, footer{
 	color:#00635a;
 }
 .container_gray_bg, #position {
-	background-color:#f5f5f2;
+	margin: 17% 20%;
+	background: transparent;
 }
 .sub_header.bg_1 {
   background-image: url(../img/header_bg_1_green.jpg);

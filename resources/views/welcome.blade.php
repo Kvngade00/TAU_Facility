@@ -62,9 +62,10 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                     <div class="inner-nav desktop-nav">
                         <ul class="clearlist scroll-nav local-scroll">
                             <li class="active"><a href="#home">Home</a></li>
-                            <li><a href="#facility">Facility</a></li>
                             <li><a href="#about">About</a></li>
+                            <li><a href="#facility">Facility</a></li>
                             <li><a href="#blog">Blog</a></li>
+                            
                             <li><a href="#contact">Contact</a></li>
                             
                             <!-- Divider -->
@@ -310,13 +311,13 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             
                             <!-- Work Item (Lightbox) -->
                             <li class="work-item mix photography">
-                                <a href="{{asset('siteassets/images/portfolio/full-project-1.jpg')}}" class="work-lightbox-link mfp-image">
+                                <a href="{{ url('/hostel') }}" class="work-ligtbox-link mfp-image">
                                     <div class="work-img">
                                         <div class="work-img-bg wow-p scalexIn"></div>
-                                        <img src="{{asset('siteassets/images/portfolio/projects-1.jpg')}}" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s" />
+                                        <img src="{{asset('siteassets/images/portfolio/newyork.png')}}" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s" />
                                     </div>
                                     <div class="work-intro">
-                                        <h3 class="work-title">Green Leaf</h3>
+                                        <h3 class="work-title">HOSTEL</h3>
                                         <div class="work-descr">
                                             Lightbox 
                                         </div>
@@ -330,10 +331,10 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                 <a href="portfolio-single-1-dark.html" class="work-ext-link">
                                     <div class="work-img">
                                         <div class="work-img-bg wow-p scalexIn"></div>
-                                        <img src="{{asset('siteassets/images/portfolio/projects-2.jpg')}}" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s" />
+                                        <img src="{{asset('siteassets/images/portfolio/washington.png')}}" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s" />
                                     </div>
                                     <div class="work-intro">
-                                        <h3 class="work-title">Photo Lighting</h3>
+                                        <h3 class="work-title">FACULTIES</h3>
                                         <div class="work-descr">
                                             External Page
                                         </div>
@@ -347,10 +348,10 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                 <a href="portfolio-single-1-dark.html" class="work-ext-link">
                                     <div class="work-img">
                                         <div class="work-img-bg wow-p scalexIn"></div>
-                                        <img src="{{asset('siteassets/images/portfolio/projects-3.jpg')}}" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s" />
+                                        <img src="{{asset('siteassets/images/portfolio/london.png')}}" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s" />
                                     </div>
                                     <div class="work-intro">
-                                        <h3 class="work-title">Green Branch</h3>
+                                        <h3 class="work-title">CAFETERIA</h3>
                                         <div class="work-descr">
                                             External Page
                                         </div>
@@ -364,10 +365,10 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                 <a href="portfolio-single-1-dark.html" class="work-ext-link">
                                     <div class="work-img">
                                         <div class="work-img-bg wow-p scalexIn"></div>
-                                        <img src="{{asset('siteassets/images/portfolio/projects-4.jpg')}}" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s" />
+                                        <img src="{{asset('siteassets/images/portfolio/dark.jpg')}}" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s" />
                                     </div>
                                     <div class="work-intro">
-                                        <h3 class="work-title">White Chair</h3>
+                                        <h3 class="work-title">CLINIC</h3>
                                         <div class="work-descr">
                                             External Page
                                         </div>
@@ -381,7 +382,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                 <a href="portfolio-single-1-dark.html" class="work-ext-link">
                                     <div class="work-img">
                                         <div class="work-img-bg wow-p scalexIn"></div>
-                                        <img src="{{asset('siteassets/images/portfolio/projects-5.jpg')}}" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s" />
+                                        <img src="{{asset('siteassets/images/portfolio/japan.jpg')}}" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s" />
                                     </div>
                                     <div class="work-intro">
                                         <h3 class="work-title">White Table</h3>
@@ -398,7 +399,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                 <a href="images/portfolio/full-project-6.jpg" class="work-lightbox-link mfp-image">
                                     <div class="work-img">
                                         <div class="work-img-bg wow-p scalexIn"></div>
-                                        <img src="{{asset('siteassets/images/portfolio/projects-6.jpg')}}" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s" />
+                                        <img src="{{asset('siteassets/images/portfolio/naija.jpg')}}" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s" />
                                     </div>
                                     <div class="work-intro">
                                         <h3 class="work-title">The Book</h3>
