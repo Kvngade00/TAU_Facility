@@ -2175,8 +2175,8 @@ a.logo:hover{
 .mobile-on .js-opened > .mn-has-sub > .mn-has-sub-icon-right{
     border-color: rgba(255,255,255, .4);
     -webkit-transform: rotate(270deg);
-    -moz-transform: rotate(270deg)
-    transform: rotate(270deg)
+    -moz-transform: rotate(270deg);
+    transform: rotate(270deg);
 }
 .mobile-on .inner-nav li{
     margin: 0 !important;
@@ -3482,7 +3482,7 @@ a.logo:hover{
 }
 .works-grid.hide-titles .work-item .work-intro{
     opacity: 0;
-    bottom: -110px;
+    bottom: -40px;
 }
 .works-grid.hide-titles .work-item:hover .work-intro{
     opacity: 1;
@@ -4143,6 +4143,43 @@ a.logo:hover{
     line-height: 1.625;
     color: #757575;
 }
+
+.ci-text a{
+    position: relative;
+    text-decoration: none;
+    opacity: .67;
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+}
+
+.ci-text a:after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 1px;
+    background-color: #171717;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+    -webkit-transition: transform .25s ease-out;
+    transition: transform .25s ease-out;
+    opacity: .9;
+}
+.ci-text a:hover{
+    text-decoration: none;
+    opacity: .9;
+}
+.ci-text a:hover:after{
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: right center;
+    transform-origin: right center;
+}
+
 .ci-link{
     margin-top: 11px;
     font-size: 12px;

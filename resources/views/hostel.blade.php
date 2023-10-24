@@ -11,7 +11,7 @@
 		<title>Hostel - {{ env('APP_NAME') }}</title>
 
 		<!-- Favicons-->
-		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="{{asset('siteassets/images/tau.png')}}">
 		<link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
 		<link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
 		<link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
@@ -54,17 +54,17 @@
 					<div class="row">
 						<div class="col-md-5 col-sm-4">
 							<div class="home_feat_1_box">
-								<a href="#">
+								<a href="{{ url('/maleHostel') }}">
 									<img src="{{asset('websassets/img/home_feat_1_1.jpg')}}" class="img-responsive" alt="">
-									<div class="short_info"><h3>Plan a visit</h3><i class="arrow_carrot-right_alt2"></i></div>
+									<div class="short_info"><h3>View Male Hostel</h3><i class="arrow_carrot-right_alt2"></i></div>
 								</a>
 							</div>
 						</div>
 						<div class="col-md-5 col-sm-4">
 							<div class="home_feat_1_box">
-								<a href="#">
+								<a href="{{ url('/femaleHostel') }}">
 									<img src="{{asset('websassets/img/home_feat_1_2.jpg')}}" class="img-responsive" alt="">
-									<div class="short_info"><h3>Study Programs</h3><i class="arrow_carrot-right_alt2"></i></div>
+									<div class="short_info"><h3>View Female Hostel</h3><i class="arrow_carrot-right_alt2"></i></div>
 								</a>
 							</div>
 						</div>
@@ -76,7 +76,7 @@
 
 		<nav>
 			<ul class="top-nav">
-				<li><a href="index.html" class="back"><i class="arrow_back"></i></a></li>
+				<li><a href="{{ url('/') }}" class="back"><i class="arrow_back"></i></a></li>
 			</ul>
 		</nav> <!-- End top-nav-->
 

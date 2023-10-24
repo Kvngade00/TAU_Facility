@@ -328,7 +328,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             
                             <!-- Work Item (External Page) -->
                             <li class="work-item mix branding design">
-                                <a href="portfolio-single-1-dark.html" class="work-ext-link">
+                                <a href="{{ url('/faculty') }}" class="work-ext-link">
                                     <div class="work-img">
                                         <div class="work-img-bg wow-p scalexIn"></div>
                                         <img src="{{asset('siteassets/images/portfolio/washington.png')}}" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s" />
@@ -345,7 +345,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             
                             <!-- Work Item (External Page) -->
                             <li class="work-item mix branding">
-                                <a href="portfolio-single-1-dark.html" class="work-ext-link">
+                                <a href="{{ url('/cafeteria') }}" class="work-ext-link">
                                     <div class="work-img">
                                         <div class="work-img-bg wow-p scalexIn"></div>
                                         <img src="{{asset('siteassets/images/portfolio/london.png')}}" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s" />
@@ -362,13 +362,13 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             
                             <!-- Work Item (External Page) -->
                             <li class="work-item mix design photography">
-                                <a href="portfolio-single-1-dark.html" class="work-ext-link">
+                                <a href="{{ url('/schoolClinic') }}" class="work-ext-link">
                                     <div class="work-img">
                                         <div class="work-img-bg wow-p scalexIn"></div>
                                         <img src="{{asset('siteassets/images/portfolio/dark.jpg')}}" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s" />
                                     </div>
                                     <div class="work-intro">
-                                        <h3 class="work-title">CLINIC</h3>
+                                        <h3 class="work-title">SCHOOL CLINIC</h3>
                                         <div class="work-descr">
                                             External Page
                                         </div>
@@ -1130,8 +1130,9 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                                 Call Us
                                             </div>
                                             <div class="ci-text">
-                                                +61 383 767 284 <br>
-                                                 0905-392-9899
+                                                <a href="tel:+61383767284"> +61 383 767 284</a>
+                                                 <br>
+                                                 <a href="tel:+2349053929899"> +234 905 392 9899</a>
                                             </div>
                                         </div>
                                     </div>

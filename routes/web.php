@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HostelController;
+use App\Http\Controllers\FacilityController;
 
 
 /*
@@ -39,5 +39,10 @@ Route::group(['prefix' => 'admin'], function () {
 
 
 
-Route::get('/hostel', [HostelController::class, 'index'])->name('hostel');
+Route::get('/hostel', [FacilityController::class, 'index'])->name('hostel');
+Route::get('/maleHostel', [FacilityController::class, 'maleHostel'])->name('maleHostel');
+Route::get('/femaleHostel', [FacilityController::class, 'femaleHostel'])->name('femaleHostel');
+Route::get('/faculty', [FacilityController::class, 'faculty'])->name('faculty');
+Route::get('/cafeteria', [FacilityController::class, 'cafeteria'])->name('cafeteria');
+Route::get('/schoolClinic', [FacilityController::class, 'schoolClinic'])->name('schoolClinic');
 
