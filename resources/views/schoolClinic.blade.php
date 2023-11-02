@@ -4,11 +4,11 @@
 <head>
 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="college, campus, university, courses, school, educational">
     <meta name="description" content="Hostel Page">
     <meta name="author" content="Aremu Adeola Abidemi(Kodex)">
-    <title>Cafeteria - {{ env('APP_NAME') }}</title>
+    <title>Clinic - {{ env('APP_NAME') }}</title>
 
     <!-- Favicons-->
 	<link rel="shortcut icon" href="{{asset('siteassets/images/tau.png')}}">
